@@ -85,6 +85,8 @@ module Stripe
         Person::OBJECT_NAME                    => Person,
         Plan::OBJECT_NAME                      => Plan,
         Product::OBJECT_NAME                   => Product,
+        Radar::List::OBJECT_NAME               => Radar::List,
+        Radar::ListItem::OBJECT_NAME           => Radar::ListItem,
         Recipient::OBJECT_NAME                 => Recipient,
         RecipientTransfer::OBJECT_NAME         => RecipientTransfer,
         Refund::OBJECT_NAME                    => Refund,
